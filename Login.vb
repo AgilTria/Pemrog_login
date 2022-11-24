@@ -1,4 +1,11 @@
-﻿Public Class Form1
+﻿
+
+Imports System.Runtime.CompilerServices
+
+Public Class Login
+    Private this As Object
+
+
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
 
     End Sub
@@ -17,9 +24,15 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If Email.Text = "admin" And Pass.Text = "admin" Then
-            Home.Show()
+            Home.ShowDialog()
+
+
         Else
             MsgBox("Username atau password salah!")
         End If
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+        Daftar.Show()
     End Sub
 End Class

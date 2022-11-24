@@ -1,10 +1,11 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+
         Try
             If disposing AndAlso components IsNot Nothing Then
                 components.Dispose()
@@ -56,7 +57,7 @@ Partial Class Form1
         Me.PictureBox2.ErrorImage = Nothing
         Me.PictureBox2.Image = Global.login.My.Resources.Resources.ALBINOS
         Me.PictureBox2.InitialImage = Nothing
-        Me.PictureBox2.Location = New System.Drawing.Point(129, 110)
+        Me.PictureBox2.Location = New System.Drawing.Point(104, 64)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(148, 130)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -162,7 +163,7 @@ Partial Class Form1
         Me.labdaftar.TabIndex = 11
         Me.labdaftar.Text = "Daftar"
         '
-        'Form1
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -180,7 +181,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
