@@ -3,7 +3,7 @@
 Imports System.Runtime.CompilerServices
 
 Public Class Login
-    Private this As Object
+
 
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
@@ -16,6 +16,7 @@ Public Class Login
 
     Private Sub Label7_Click(sender As Object, e As EventArgs) Handles labdaftar.Click
         Daftar.Show()
+        Me.Close()
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
@@ -24,7 +25,8 @@ Public Class Login
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If Email.Text = "admin" And Pass.Text = "admin" Then
-            Home.ShowDialog()
+            Home.Show()
+            Me.Close()
 
 
         Else
@@ -33,6 +35,7 @@ Public Class Login
     End Sub
 
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-        Daftar.Show()
+        Lupa_akun.Show()
+        Me.Close()
     End Sub
 End Class

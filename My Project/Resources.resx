@@ -154,6 +154,9 @@
   <data name="Vector3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vector3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Vector5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vector5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Vector 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vector 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,7 +166,7 @@
   <data name="ALBINOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ALBINOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vector5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vector5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WhatsApp Image 2022-11-24 at 15.52.39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2022-11-24 at 15.52.39.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

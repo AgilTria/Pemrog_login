@@ -22,6 +22,7 @@ Partial Class Home
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Home))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -50,7 +51,7 @@ Partial Class Home
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, -1)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(382, 176)
@@ -61,18 +62,19 @@ Partial Class Home
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.PictureBox2.Image = Global.login.My.Resources.Resources.WhatsApp_Image_2022_11_24_at_15_52_39
         Me.PictureBox2.Location = New System.Drawing.Point(26, 91)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(316, 177)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
         '
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox3.Image = Global.login.My.Resources.Resources.ALBINOS
+        Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(38, 33)
@@ -82,8 +84,8 @@ Partial Class Home
         '
         'PictureBox4
         '
-        Me.PictureBox4.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox4.Image = Global.login.My.Resources.Resources.account_circle_outline
+        Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(321, 12)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(41, 33)
@@ -93,7 +95,7 @@ Partial Class Home
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.login.My.Resources.Resources.gambar_2
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(26, 398)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(99, 140)
@@ -103,7 +105,7 @@ Partial Class Home
         '
         'PictureBox6
         '
-        Me.PictureBox6.Image = Global.login.My.Resources.Resources.gambar_2
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(215, 502)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(99, 140)
@@ -113,7 +115,7 @@ Partial Class Home
         '
         'PictureBox7
         '
-        Me.PictureBox7.Image = Global.login.My.Resources.Resources.gambar_2
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.Location = New System.Drawing.Point(26, 597)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(99, 140)
@@ -142,7 +144,7 @@ Partial Class Home
         'PictureBox8
         '
         Me.PictureBox8.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox8.Image = Global.login.My.Resources.Resources.account_details2
+        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
         Me.PictureBox8.Location = New System.Drawing.Point(321, 711)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(28, 26)
@@ -153,7 +155,7 @@ Partial Class Home
         'PictureBox9
         '
         Me.PictureBox9.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox9.Image = Global.login.My.Resources.Resources.Vector4
+        Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
         Me.PictureBox9.Location = New System.Drawing.Point(33, 711)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(28, 26)
@@ -164,7 +166,7 @@ Partial Class Home
         'PictureBox10
         '
         Me.PictureBox10.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox10.Image = Global.login.My.Resources.Resources.Vector3
+        Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
         Me.PictureBox10.Location = New System.Drawing.Point(178, 711)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(28, 26)

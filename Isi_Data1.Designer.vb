@@ -22,13 +22,14 @@ Partial Class Isi_Data1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Isi_Data1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Nama = New System.Windows.Forms.TextBox()
+        Me.Tanggal_pinjaman = New System.Windows.Forms.TextBox()
+        Me.Tanggal_kembalikan = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -50,7 +51,7 @@ Partial Class Isi_Data1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(-4, -2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(382, 176)
@@ -88,32 +89,32 @@ Partial Class Isi_Data1
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "Nama"
         '
-        'TextBox1
+        'Nama
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Menu
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(57, 180)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(208, 35)
-        Me.TextBox1.TabIndex = 12
+        Me.Nama.BackColor = System.Drawing.SystemColors.Menu
+        Me.Nama.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Nama.Location = New System.Drawing.Point(57, 180)
+        Me.Nama.Name = "Nama"
+        Me.Nama.Size = New System.Drawing.Size(208, 35)
+        Me.Nama.TabIndex = 12
         '
-        'TextBox2
+        'Tanggal_pinjaman
         '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.Menu
-        Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(57, 262)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(208, 35)
-        Me.TextBox2.TabIndex = 13
+        Me.Tanggal_pinjaman.BackColor = System.Drawing.SystemColors.Menu
+        Me.Tanggal_pinjaman.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Tanggal_pinjaman.Location = New System.Drawing.Point(57, 262)
+        Me.Tanggal_pinjaman.Name = "Tanggal_pinjaman"
+        Me.Tanggal_pinjaman.Size = New System.Drawing.Size(208, 35)
+        Me.Tanggal_pinjaman.TabIndex = 13
         '
-        'TextBox3
+        'Tanggal_kembalikan
         '
-        Me.TextBox3.BackColor = System.Drawing.SystemColors.Menu
-        Me.TextBox3.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox3.Location = New System.Drawing.Point(57, 341)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(208, 35)
-        Me.TextBox3.TabIndex = 14
+        Me.Tanggal_kembalikan.BackColor = System.Drawing.SystemColors.Menu
+        Me.Tanggal_kembalikan.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Tanggal_kembalikan.Location = New System.Drawing.Point(57, 341)
+        Me.Tanggal_kembalikan.Name = "Tanggal_kembalikan"
+        Me.Tanggal_kembalikan.Size = New System.Drawing.Size(208, 35)
+        Me.Tanggal_kembalikan.TabIndex = 14
         '
         'Label3
         '
@@ -138,7 +139,7 @@ Partial Class Isi_Data1
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Location = New System.Drawing.Point(122, 520)
@@ -151,8 +152,8 @@ Partial Class Isi_Data1
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox3.Image = Global.login.My.Resources.Resources.ALBINOS
+        Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(12, 2)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(38, 33)
@@ -162,8 +163,8 @@ Partial Class Isi_Data1
         '
         'PictureBox4
         '
-        Me.PictureBox4.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox4.Image = Global.login.My.Resources.Resources.account_circle_outline
+        Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(321, 2)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(41, 33)
@@ -174,7 +175,7 @@ Partial Class Isi_Data1
         'PictureBox7
         '
         Me.PictureBox7.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox7.Image = Global.login.My.Resources.Resources.account_details2
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.Location = New System.Drawing.Point(316, 667)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(28, 26)
@@ -185,7 +186,7 @@ Partial Class Isi_Data1
         'PictureBox6
         '
         Me.PictureBox6.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox6.Image = Global.login.My.Resources.Resources.Vector5
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(28, 667)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(28, 26)
@@ -196,7 +197,7 @@ Partial Class Isi_Data1
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox5.Image = Global.login.My.Resources.Resources.account_credit_card
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(173, 667)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(28, 26)
@@ -228,9 +229,9 @@ Partial Class Isi_Data1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Tanggal_kembalikan)
+        Me.Controls.Add(Me.Tanggal_pinjaman)
+        Me.Controls.Add(Me.Nama)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
@@ -254,9 +255,9 @@ Partial Class Isi_Data1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Nama As TextBox
+    Friend WithEvents Tanggal_pinjaman As TextBox
+    Friend WithEvents Tanggal_kembalikan As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Button1 As Button

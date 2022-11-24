@@ -22,6 +22,7 @@ Partial Class Profil2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Profil2))
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -51,7 +52,7 @@ Partial Class Profil2
         'Button2
         '
         Me.Button2.ForeColor = System.Drawing.SystemColors.Window
-        Me.Button2.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.Location = New System.Drawing.Point(115, 484)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(122, 37)
@@ -127,8 +128,8 @@ Partial Class Profil2
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox3.Image = Global.login.My.Resources.Resources.ALBINOS
+        Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(11, 12)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(38, 33)
@@ -148,7 +149,7 @@ Partial Class Profil2
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(-7, -2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(382, 176)
@@ -190,7 +191,7 @@ Partial Class Profil2
         'PictureBox7
         '
         Me.PictureBox7.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox7.Image = Global.login.My.Resources.Resources.account_details
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.Location = New System.Drawing.Point(313, 667)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(28, 26)
@@ -201,7 +202,7 @@ Partial Class Profil2
         'PictureBox6
         '
         Me.PictureBox6.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox6.Image = Global.login.My.Resources.Resources.Vector5
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(25, 667)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(28, 26)
@@ -212,7 +213,7 @@ Partial Class Profil2
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox5.Image = Global.login.My.Resources.Resources.Vector1
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(170, 667)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(28, 26)
