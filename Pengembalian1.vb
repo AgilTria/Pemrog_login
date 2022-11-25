@@ -13,7 +13,7 @@
         Me.Close()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         Pengembalian2.Show()
         Me.Close()
     End Sub
@@ -28,7 +28,7 @@
     End Sub
 
     Private Sub PictureBox8_Click_1(sender As Object, e As EventArgs) Handles PictureBox8.Click
-        Buku.Show()
+        Home.Show()
         Me.Close()
     End Sub
 End Class

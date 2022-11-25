@@ -62,7 +62,7 @@ Partial Class Home
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.PictureBox2.Image = Global.login.My.Resources.Resources.WhatsApp_Image_2022_11_24_at_15_52_39
+        Me.PictureBox2.Image = Global.Login.My.Resources.Resources.WhatsApp_Image_2022_11_24_at_15_52_39
         Me.PictureBox2.Location = New System.Drawing.Point(26, 91)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(316, 177)

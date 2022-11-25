@@ -28,8 +28,6 @@ Partial Class Isi_Data1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Nama = New System.Windows.Forms.TextBox()
-        Me.Tanggal_pinjaman = New System.Windows.Forms.TextBox()
-        Me.Tanggal_kembalikan = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -39,6 +37,8 @@ Partial Class Isi_Data1
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.Tanggal_pinjaman = New System.Windows.Forms.DateTimePicker()
+        Me.Tanggal_kembalikan = New System.Windows.Forms.DateTimePicker()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -97,24 +97,6 @@ Partial Class Isi_Data1
         Me.Nama.Name = "Nama"
         Me.Nama.Size = New System.Drawing.Size(208, 35)
         Me.Nama.TabIndex = 12
-        '
-        'Tanggal_pinjaman
-        '
-        Me.Tanggal_pinjaman.BackColor = System.Drawing.SystemColors.Menu
-        Me.Tanggal_pinjaman.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Tanggal_pinjaman.Location = New System.Drawing.Point(57, 262)
-        Me.Tanggal_pinjaman.Name = "Tanggal_pinjaman"
-        Me.Tanggal_pinjaman.Size = New System.Drawing.Size(208, 35)
-        Me.Tanggal_pinjaman.TabIndex = 13
-        '
-        'Tanggal_kembalikan
-        '
-        Me.Tanggal_kembalikan.BackColor = System.Drawing.SystemColors.Menu
-        Me.Tanggal_kembalikan.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Tanggal_kembalikan.Location = New System.Drawing.Point(57, 341)
-        Me.Tanggal_kembalikan.Name = "Tanggal_kembalikan"
-        Me.Tanggal_kembalikan.Size = New System.Drawing.Size(208, 35)
-        Me.Tanggal_kembalikan.TabIndex = 14
         '
         'Label3
         '
@@ -215,11 +197,27 @@ Partial Class Isi_Data1
         Me.PictureBox8.TabIndex = 41
         Me.PictureBox8.TabStop = False
         '
+        'Tanggal_pinjaman
+        '
+        Me.Tanggal_pinjaman.Location = New System.Drawing.Point(57, 273)
+        Me.Tanggal_pinjaman.Name = "Tanggal_pinjaman"
+        Me.Tanggal_pinjaman.Size = New System.Drawing.Size(200, 23)
+        Me.Tanggal_pinjaman.TabIndex = 45
+        '
+        'Tanggal_kembalikan
+        '
+        Me.Tanggal_kembalikan.Location = New System.Drawing.Point(57, 360)
+        Me.Tanggal_kembalikan.Name = "Tanggal_kembalikan"
+        Me.Tanggal_kembalikan.Size = New System.Drawing.Size(200, 23)
+        Me.Tanggal_kembalikan.TabIndex = 46
+        '
         'Isi_Data1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(374, 705)
+        Me.Controls.Add(Me.Tanggal_kembalikan)
+        Me.Controls.Add(Me.Tanggal_pinjaman)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox5)
@@ -229,8 +227,6 @@ Partial Class Isi_Data1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Tanggal_kembalikan)
-        Me.Controls.Add(Me.Tanggal_pinjaman)
         Me.Controls.Add(Me.Nama)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -256,8 +252,6 @@ Partial Class Isi_Data1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Nama As TextBox
-    Friend WithEvents Tanggal_pinjaman As TextBox
-    Friend WithEvents Tanggal_kembalikan As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Button1 As Button
@@ -267,4 +261,6 @@ Partial Class Isi_Data1
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents Tanggal_pinjaman As DateTimePicker
+    Friend WithEvents Tanggal_kembalikan As DateTimePicker
 End Class
