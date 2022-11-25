@@ -17,12 +17,10 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Nama.Text = "" And Tanggal_pinjaman.Text = "" And Tanggal_kembalikan.Text = "" Then
-            Isi_Data2.Show()
+
+        Isi_Data2.Show()
             Me.Close()
-        Else
-            MsgBox("Data tidak boleh kosong!")
-        End If
+
     End Sub
 
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click

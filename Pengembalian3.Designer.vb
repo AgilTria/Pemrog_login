@@ -22,6 +22,7 @@ Partial Class Pengembalian3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Pengembalian3))
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -45,8 +46,8 @@ Partial Class Pengembalian3
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox3.Image = Global.login.My.Resources.Resources.ALBINOS
+        Me.PictureBox3.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
+        Me.PictureBox3.Image = Global.Login.My.Resources.Resources.ALBINOS
         Me.PictureBox3.Location = New System.Drawing.Point(11, 12)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(38, 33)
@@ -56,8 +57,8 @@ Partial Class Pengembalian3
         '
         'PictureBox4
         '
-        Me.PictureBox4.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox4.Image = Global.login.My.Resources.Resources.account_circle_outline
+        Me.PictureBox4.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
+        Me.PictureBox4.Image = Global.Login.My.Resources.Resources.account_circle_outline
         Me.PictureBox4.Location = New System.Drawing.Point(320, 12)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(41, 33)
@@ -88,7 +89,7 @@ Partial Class Pengembalian3
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox1.Image = Global.Login.My.Resources.Resources.Vector_1
         Me.PictureBox1.Location = New System.Drawing.Point(-7, -2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(382, 176)
@@ -109,7 +110,7 @@ Partial Class Pengembalian3
         'PictureBox7
         '
         Me.PictureBox7.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox7.Image = Global.login.My.Resources.Resources.account_details2
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.Location = New System.Drawing.Point(320, 667)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(28, 26)
@@ -120,7 +121,7 @@ Partial Class Pengembalian3
         'PictureBox6
         '
         Me.PictureBox6.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox6.Image = Global.login.My.Resources.Resources.Vector5
+        Me.PictureBox6.Image = Global.Login.My.Resources.Resources.Vector5
         Me.PictureBox6.Location = New System.Drawing.Point(32, 667)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(28, 26)
@@ -131,7 +132,7 @@ Partial Class Pengembalian3
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox5.Image = Global.login.My.Resources.Resources.account_credit_card
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(177, 667)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(28, 26)

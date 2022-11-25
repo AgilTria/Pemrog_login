@@ -23,9 +23,6 @@ Partial Class Pengembalian2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -37,7 +34,6 @@ Partial Class Pengembalian2
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -60,39 +56,6 @@ Partial Class Pengembalian2
         Me.Button2.Text = "Sudah DiKembalikan"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button1
-        '
-        Me.Button1.ForeColor = System.Drawing.SystemColors.Window
-        Me.Button1.Image = Global.login.My.Resources.Resources.Vector_1
-        Me.Button1.Location = New System.Drawing.Point(169, 378)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(141, 29)
-        Me.Button1.TabIndex = 49
-        Me.Button1.Text = "Kembalikan"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox2.Location = New System.Drawing.Point(140, 330)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(195, 42)
-        Me.TextBox2.TabIndex = 48
-        Me.TextBox2.Text = "Tanggal Pengembalian" & Global.Microsoft.VisualBasic.ChrW(10) & " 29 November 2022"
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.login.My.Resources.Resources.gambar_2
-        Me.PictureBox6.Location = New System.Drawing.Point(41, 330)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(93, 129)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 47
-        Me.PictureBox6.TabStop = False
-        '
         'TextBox1
         '
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -108,8 +71,8 @@ Partial Class Pengembalian2
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox3.Image = Global.login.My.Resources.Resources.ALBINOS
+        Me.PictureBox3.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
+        Me.PictureBox3.Image = Global.Login.My.Resources.Resources.ALBINOS
         Me.PictureBox3.Location = New System.Drawing.Point(11, 12)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(38, 33)
@@ -119,8 +82,8 @@ Partial Class Pengembalian2
         '
         'PictureBox4
         '
-        Me.PictureBox4.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox4.Image = Global.login.My.Resources.Resources.account_circle_outline
+        Me.PictureBox4.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
+        Me.PictureBox4.Image = Global.Login.My.Resources.Resources.account_circle_outline
         Me.PictureBox4.Location = New System.Drawing.Point(320, 12)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(41, 33)
@@ -130,7 +93,7 @@ Partial Class Pengembalian2
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.login.My.Resources.Resources.gambar_2
+        Me.PictureBox5.Image = Global.Login.My.Resources.Resources.gambar_2
         Me.PictureBox5.Location = New System.Drawing.Point(41, 169)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(93, 129)
@@ -161,7 +124,7 @@ Partial Class Pengembalian2
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox1.Image = Global.Login.My.Resources.Resources.Vector_1
         Me.PictureBox1.Location = New System.Drawing.Point(-7, -2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(382, 176)
@@ -172,7 +135,7 @@ Partial Class Pengembalian2
         'PictureBox7
         '
         Me.PictureBox7.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox7.Image = Global.login.My.Resources.Resources.account_details2
+        Me.PictureBox7.Image = Global.Login.My.Resources.Resources.account_details
         Me.PictureBox7.Location = New System.Drawing.Point(320, 667)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(28, 26)
@@ -183,7 +146,7 @@ Partial Class Pengembalian2
         'PictureBox8
         '
         Me.PictureBox8.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox8.Image = Global.login.My.Resources.Resources.Vector5
+        Me.PictureBox8.Image = Global.Login.My.Resources.Resources.Vector5
         Me.PictureBox8.Location = New System.Drawing.Point(32, 667)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(28, 26)
@@ -194,7 +157,7 @@ Partial Class Pengembalian2
         'PictureBox9
         '
         Me.PictureBox9.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox9.Image = Global.login.My.Resources.Resources.account_credit_card
+        Me.PictureBox9.Image = Global.Login.My.Resources.Resources.Vector1
         Me.PictureBox9.Location = New System.Drawing.Point(177, 667)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(28, 26)
@@ -222,9 +185,6 @@ Partial Class Pengembalian2
         Me.Controls.Add(Me.PictureBox9)
         Me.Controls.Add(Me.PictureBox10)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox4)
@@ -235,7 +195,6 @@ Partial Class Pengembalian2
         Me.Name = "Pengembalian2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Pengembalian2"
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -251,9 +210,6 @@ Partial Class Pengembalian2
     End Sub
 
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox

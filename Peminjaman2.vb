@@ -5,7 +5,7 @@
     End Sub
 
     Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
-        Buku.Show()
+        Home.Show()
         Me.Close()
     End Sub
 

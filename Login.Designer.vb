@@ -41,7 +41,7 @@ Partial Class Login
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox1.Image = Global.Login.My.Resources.Resources.Vector_1
         Me.PictureBox1.Location = New System.Drawing.Point(-9, -3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(382, 272)
@@ -52,10 +52,10 @@ Partial Class Login
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox2.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.PictureBox2.ErrorImage = Nothing
-        Me.PictureBox2.Image = Global.login.My.Resources.Resources.ALBINOS
+        Me.PictureBox2.Image = Global.Login.My.Resources.Resources.ALBINOS
         Me.PictureBox2.InitialImage = Nothing
         Me.PictureBox2.Location = New System.Drawing.Point(104, 64)
         Me.PictureBox2.Name = "PictureBox2"
@@ -123,7 +123,7 @@ Partial Class Login
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
+        Me.Button1.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
         Me.Button1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Location = New System.Drawing.Point(22, 623)
@@ -137,7 +137,7 @@ Partial Class Login
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(265, 557)
+        Me.Label5.Location = New System.Drawing.Point(265, 567)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(87, 20)
         Me.Label5.TabIndex = 9

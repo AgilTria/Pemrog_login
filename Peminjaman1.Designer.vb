@@ -29,8 +29,6 @@ Partial Class Peminjaman1
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
@@ -40,7 +38,6 @@ Partial Class Peminjaman1
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,7 +46,7 @@ Partial Class Peminjaman1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.login.My.Resources.Resources.Vector_1
+        Me.PictureBox1.Image = Global.Login.My.Resources.Resources.Vector_1
         Me.PictureBox1.Location = New System.Drawing.Point(-6, -2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(382, 176)
@@ -80,7 +77,7 @@ Partial Class Peminjaman1
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.login.My.Resources.Resources.gambar_2
+        Me.PictureBox5.Image = Global.Login.My.Resources.Resources.gambar_2
         Me.PictureBox5.Location = New System.Drawing.Point(42, 169)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(93, 129)
@@ -90,8 +87,8 @@ Partial Class Peminjaman1
         '
         'PictureBox4
         '
-        Me.PictureBox4.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox4.Image = Global.login.My.Resources.Resources.account_circle_outline
+        Me.PictureBox4.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
+        Me.PictureBox4.Image = Global.Login.My.Resources.Resources.account_circle_outline
         Me.PictureBox4.Location = New System.Drawing.Point(321, 12)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(41, 33)
@@ -102,8 +99,8 @@ Partial Class Peminjaman1
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.login.My.Resources.Resources.Vector_1
-        Me.PictureBox3.Image = Global.login.My.Resources.Resources.ALBINOS
+        Me.PictureBox3.BackgroundImage = Global.Login.My.Resources.Resources.Vector_1
+        Me.PictureBox3.Image = Global.Login.My.Resources.Resources.ALBINOS
         Me.PictureBox3.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(38, 33)
@@ -122,31 +119,10 @@ Partial Class Peminjaman1
         Me.TextBox1.TabIndex = 24
         Me.TextBox1.Text = "Peminjaman : 19 November 2022" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Pengembalian : 26 November 2022"
         '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.login.My.Resources.Resources.gambar_2
-        Me.PictureBox6.Location = New System.Drawing.Point(42, 330)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(93, 129)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 25
-        Me.PictureBox6.TabStop = False
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox2.Location = New System.Drawing.Point(141, 330)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(195, 42)
-        Me.TextBox2.TabIndex = 26
-        Me.TextBox2.Text = "Peminjaman : 20 November 2022" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Pengembalian : 29 November 2022"
-        '
         'PictureBox7
         '
         Me.PictureBox7.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox7.Image = Global.login.My.Resources.Resources.account_details2
+        Me.PictureBox7.Image = Global.Login.My.Resources.Resources.account_details2
         Me.PictureBox7.Location = New System.Drawing.Point(321, 667)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(28, 26)
@@ -157,7 +133,7 @@ Partial Class Peminjaman1
         'PictureBox8
         '
         Me.PictureBox8.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox8.Image = Global.login.My.Resources.Resources.Vector5
+        Me.PictureBox8.Image = Global.Login.My.Resources.Resources.Vector5
         Me.PictureBox8.Location = New System.Drawing.Point(33, 667)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(28, 26)
@@ -168,7 +144,7 @@ Partial Class Peminjaman1
         'PictureBox9
         '
         Me.PictureBox9.BackColor = System.Drawing.SystemColors.Window
-        Me.PictureBox9.Image = Global.login.My.Resources.Resources.account_credit_card
+        Me.PictureBox9.Image = Global.Login.My.Resources.Resources.account_credit_card
         Me.PictureBox9.Location = New System.Drawing.Point(178, 667)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(28, 26)
@@ -195,8 +171,6 @@ Partial Class Peminjaman1
         Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.PictureBox9)
         Me.Controls.Add(Me.PictureBox10)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox4)
@@ -206,13 +180,12 @@ Partial Class Peminjaman1
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Peminjaman1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form6"
+        Me.Text = "Peminjaman1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
@@ -229,8 +202,6 @@ Partial Class Peminjaman1
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
